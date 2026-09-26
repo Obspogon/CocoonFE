@@ -37,6 +37,16 @@
       "extra": ""
     },
     {
+      "name": "SUPER ZSNES",
+      "uniqueId": "snes.com.zsnes.superzsnes",
+      "description": "Supported extensions: bml, bs, bsx, dx2, fig, gb, gbc, gd3, gd7, rom, sfc, smc, st, swc, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bml|bs|bsx|dx2|fig|gb|gbc|gd3|gd7|rom|sfc|smc|st|swc|zip|7z)$",
+      "amStartArguments": "-n com.zsnes.superzsnes/com.unity3d.player.UnityPlayerActivity\n  -a android.intent.action.MAIN\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "RetroArch (64 bits) - snes9x",
       "uniqueId": "snes.ra64.snes9x",
       "description": "Supported extensions: bs, fig, sfc, smc, st, swc, zip, 7z.",
